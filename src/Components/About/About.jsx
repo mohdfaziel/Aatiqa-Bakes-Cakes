@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import fadeIn from "../../Framer/Fadein.js";
-import { dnt,light } from "../../assets/Images/images";
+import { dnt,ig ,email} from "../../assets/Images/images";
+import Social from "./Social.jsx";
 export default function About() {
   return (
     <div
@@ -46,6 +47,10 @@ export default function About() {
             savoring the heritage of sheermal or enjoying a classic treat, every
             bite is a celebration of warmth, flavor, and delight.
           </motion.p>
+          <div className="social self-center mt-7 flex justify-center items-center gap-6">
+            <Social icon={ig} link="https://www.instagram.com/aatiqa_bakesandcakes?igsh=djB2aTNndjIwbHk0"/>
+            <Social icon={email}/>
+          </div>
         </div>
       </div>
     </div>

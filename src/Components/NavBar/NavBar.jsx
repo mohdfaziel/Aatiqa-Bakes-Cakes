@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { light, logo } from "../../assets/Images/images.js";
+import { light, logo,ig, shop } from "../../assets/Images/images.js";
 import Buy from "./Buy.jsx";
 export default function NavBar() {
   const [active, setActive] = useState("home");
@@ -53,11 +53,11 @@ export default function NavBar() {
         </div>
         <a
           className="order hover:scale-105 transition-all"
-          href="https://www.instagram.com/aatiqa_bakesandcakes?igsh=djB2aTNndjIwbHk0"
+         href="https://wa.me/919906072559?text=Hello%20Aatiqa%20Bakes%20%26%20Cakes%0A%20I%20would%20like%20to%20place%20an%20order."
           target="_blank"
         >
           <div>
-            <Buy />
+            <Buy icon={shop} />
           </div>
         </a>
       </div>

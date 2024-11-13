@@ -11,4 +11,5 @@ import mc1 from './mc2.png';
 import arrow from './Arrow.png';
 import shop from './Shop.png';
 import ig from './ig.png';
-export {btn,buy,cc1,cc2,ccCont,dnt,ig,light,logo,mc,arrow,shop,mc1};
+import email from './email.png';
+export {btn,buy,cc1,email,cc2,ccCont,dnt,ig,light,logo,mc,arrow,shop,mc1};
