@@ -26,7 +26,7 @@ export default function Home() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.1 }}
-            className="items flex justify-center items-center flex-wrap gap-4"
+            className="items z-20 flex justify-center items-center flex-wrap gap-4"
           >
             {items.map((item) => (
               <Item item={item} />
