@@ -61,7 +61,7 @@ export default function Home() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.1 }}
-              href="https://wa.me/917006205934"
+              href="https://wa.me/919906072559"
               target="_blank"
             >
               <button className="w-24 self-center md:self-start mt-5 hover:scale-105 font-semibold bg-main py-1 rounded-full transition-all">
