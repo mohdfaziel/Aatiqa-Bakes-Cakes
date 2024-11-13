@@ -38,7 +38,7 @@ export default function About() {
               viewport={{ once: false, amount: 0.1 }} className="text-sm text-justify md:text-start w-full text-unactive">
             Welcome to our bakery, owned by{" "}
             <span className="text-active">Azhar Qayoom</span> and located in the
-            heart of <span className="text-active">Bhadarwah.</span> We blend
+            heart of <span className="text-active">Bhadarwah near Jamia Masjid Chowk, Court Road.</span> We blend
             the rich traditions of Kashmiri baking with modern favorites to
             create an unforgettable experience. From the soft, aromatic Kashmiri
             breads and bakarkhani to cakes, doughnuts, pastries, and cookies, each
