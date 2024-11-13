@@ -4,7 +4,7 @@ import { light } from "../../assets/Images/images.js";
 export default function CupCake({ cc }) {
   return (
     <motion.div
-      variants={fadeIn("up", 0.3)}
+      variants={fadeIn("", 0.3)}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.1 }}
