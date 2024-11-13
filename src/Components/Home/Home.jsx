@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="w-full min-h-screen py-[5rem] md:py-0 px-[1rem] md:px-[6rem] bg-dark1 flex justify-center items-center"
+      className="w-full min-h-screen pt-[5rem] md:py-0 px-[1rem] md:px-[6rem] bg-dark1 flex md:flex-row flex-col justify-center items-center"
     >
       <div className="container h-full gap-3 md:gap-0 w-full flex md:flex-row flex-col-reverse justify-center items-center">
         <div className="cake  transition-all relative  h-full w-full md:w-[50%] flex justify-center items-center flex-col">
@@ -75,6 +75,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+        <div className="lower mt-16 md:hidden flex justify-center md:justify-start w-full items-center gap-5">
+            <CupCake cc={cc1} />
+            <CupCake cc={cc2} />
+          </div>
     </div>
   );
 }

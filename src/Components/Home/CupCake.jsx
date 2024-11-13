@@ -12,7 +12,7 @@ export default function CupCake({ cc }) {
     >
       <img
         src={cc}
-        className="absolute hover:scale-105 transition-all -top-12"
+        className="absolute animate-float hover:scale-105 transition-all -top-12"
         alt=""
       />
     </motion.div>

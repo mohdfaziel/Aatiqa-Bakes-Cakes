@@ -20,7 +20,7 @@ export default function About() {
         >
           <img
             src={dnt}
-            className="w-[100%] z-10 transition-all hover:scale-105"
+            className="w-[80%] animate-float z-10 transition-all hover:scale-105"
             alt=""
           />
         </motion.div>
