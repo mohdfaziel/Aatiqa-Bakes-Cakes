@@ -11,14 +11,15 @@ export default function Home() {
       className="w-full min-h-screen py-[5rem] md:py-0 px-[1rem] md:px-[6rem] bg-dark1 flex justify-center items-center"
     >
       <div className="container h-full gap-3 md:gap-0 w-full flex md:flex-row flex-col-reverse justify-center items-center">
-        <div className="cake relative  h-full w-full md:w-[50%] flex justify-center items-center flex-col">
+        <div className="cake  transition-all relative  h-full w-full md:w-[50%] flex justify-center items-center flex-col">
           <motion.img
             variants={fadeIn("", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.1 }}
             src={mc1}
-            className="w-[30rem] z-10 -m-3 transition-all hover:scale-105"
+            whileHover={{ scale: 1.05 }}
+            className="w-[30rem] z-10 -m-3"
             alt=""
           ></motion.img>
           <motion.div
