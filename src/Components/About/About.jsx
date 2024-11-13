@@ -41,7 +41,7 @@ export default function About() {
             heart of <span className="text-active">Bhadarwah.</span> We blend
             the rich traditions of Kashmiri baking with modern favorites to
             create an unforgettable experience. From the soft, aromatic Kashmiri
-            breads and bakarkhani to cakes, donuts, pastries, and cookies, each
+            breads and bakarkhani to cakes, doughnuts, pastries, and cookies, each
             item is crafted with the finest ingredients and utmost care. Whether
             savoring the heritage of sheermal or enjoying a classic treat, every
             bite is a celebration of warmth, flavor, and delight.

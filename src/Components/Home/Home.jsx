@@ -4,7 +4,7 @@ import { cc1, cc2, light, mc1 } from "../../assets/Images/images";
 import CupCake from "./CupCake";
 import Item from "./Items";
 export default function Home() {
-  const items = ["Cakes", "Cookies", "Donuts", "Pastries"];
+  const items = ["Cakes", "Cookies", "Doughnuts", "Pastries"];
   return (
     <div
       id="home"
